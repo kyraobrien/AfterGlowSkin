@@ -1,0 +1,243 @@
+body{
+    background-color: #fff0df;
+    padding: .3rem;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Playfair Display', serif;
+}
+p{
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+hr{
+   background-color: #f3bac6;
+   border-color: #f3bac6;
+}
+h1{
+    font-size: 40px;
+}
+a:link { text-decoration: none; }
+a { color: inherit; }
+
+
+.scroll{
+    background-color: #f5886e;
+    position: relative;
+    height: 3rem;
+}
+.scroll p{
+    color: #fff0df;
+    position: absolute;
+    left: 0;
+    animation-name: scrollbar;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    width: 150%;
+    animation-fill-mode: backwards;
+
+}
+.scroll p:nth-child(2){
+    animation-delay: 5s;
+}
+@keyframes scrollbar{
+    from{
+        left: -120%;
+    }
+    to{
+        left: 105%;
+    }
+}
+
+
+.icons-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#search-icon{
+    width: 5%;
+    height: 5%;
+}
+#cart-icon{
+    width: 5%;
+    height: 5%;
+}
+.navbar a{
+    background-color: #fcb85a;
+    size: 20%;
+    color: #fff0df;
+    padding: 1rem;
+    border-radius: 1rem;
+   font-family: 'Playfair Display', serif
+}
+.navbar{
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+
+.glow-on{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.glow-on img{
+    max-width: 50%;
+    border-top-left-radius: 6rem;
+    border-bottom-left-radius:6rem ;
+}
+.glow-on h1{
+    padding-top:2.5rem ;
+}
+.glow-on h4{
+    font-size: 20px;
+}
+.glow-on p{
+    font-size: 20px;
+    text-align: center;
+}
+.get-glow{
+    display: flex;
+    flex-direction: column;
+    background-color: #fcb85a;
+    padding: 2rem;
+    align-items: center;
+    color: #fff0df;
+    border-top-right-radius: 6rem;
+    border-bottom-right-radius:6rem ;
+    max-width: 50rem;
+
+}
+.get-glow h1{
+    color: #f37755;
+}
+.get-glow h4{
+    color: #f37755;
+}
+.oasis, .bestsellers, .skincare, .haircare, .shopall{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+.oasis h1{
+    color: #f37755;
+    flex-basis: 100%;
+}
+
+.oasis img{
+    border-radius: 17%;
+    max-width: 99%;
+}
+.bestsellers img{
+    border-radius: 17%;
+    max-width: 99%;
+}
+.skincare img{
+    border-radius: 17%;
+    max-width: 99%;
+}
+.haircare img{
+    border-radius: 17%;
+    max-width: 99%;
+}
+.shopall img{
+    border-radius: 17%;
+    max-width: 99%;
+}
+.product{
+    background-color: #fecc8d;
+    padding: 1rem;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 26%;
+}
+.product p{
+    color: #f37755;
+    font-size: 1.2rem;
+}
+.mission{
+    padding: 1rem;
+    padding-left:7rem ;
+    padding-right: 2rem;
+}
+.mission h1{
+    color: #fcb85a;
+    display: flex;
+    justify-content: right;
+}
+.mission p{
+    color: #f37755;
+    font-size: 20px;
+    text-align: right;
+}
+.oninstagram{
+    background-color: #fcb85a;
+    border-radius: 3rem;
+    padding: 1rem;
+}
+.oninstagram img{
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+}
+.instapix{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+
+}
+.oninstagram h2{
+    color: #f37755;
+    font-size: 35px;
+}
+.oninstagram h4{
+    color: #f37755;
+    font-size: 20px;
+}
+.oninstagramtext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.oninstagramtext h4{
+    padding-left: .5rem;
+}
+#leftpicig{
+    border-top-left-radius: 17%;
+    border-bottom-left-radius: 17%;
+}
+#rightpicig{
+    border-top-right-radius: 17%;
+    border-bottom-right-radius: 17%;
+}
+
+.social1 img{
+    width: 50%;
+    
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.social1{
+    display: flex;
+    flex-direction: row;
+
+}
+.social3{
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+.social2 h3{
+    color: #f26748;
+    font-size: 150%;
+}
